@@ -91,7 +91,7 @@ class BallDetector:
 
 def main():
     # 读取配置（加上编码更稳）
-    with open("config.json", "r", encoding="utf-8") as f:
+    with open("homework/config.json", "r", encoding="utf-8") as f:
         cfg = json.load(f)
 
     ROI       = tuple(cfg["roi"])
